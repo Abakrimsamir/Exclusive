@@ -47,7 +47,7 @@ header{
     letter-spacing: 0.03em;
 }
 
-ul{
+.menu{
     display: flex;
     gap: 20px;
     align-items: center;
@@ -75,4 +75,35 @@ ul li a {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.landingpage {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    font-size: 14px;
+}
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.womenfashion, .menfashion {
+    display: none;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.womenfashion a, .menfashion a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 4px;
+}
+.womendropdown:hover .womenfashion {
+    display: block;
+}
+.mendropdown:hover .menfashion {
+    display: block;
 }
