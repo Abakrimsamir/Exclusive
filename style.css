@@ -169,3 +169,7 @@ ul li a {
     border-radius: 50%;
     border: 2px solid #fff;
 }
+footer{
+    background-color: black;
+    color: white;
+}
