@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins&display=swap');
+* {
     margin: 0;
     padding: 0;
 }
@@ -6,47 +7,48 @@ body{
     font-family: 'Inter';
 }
 header{
-    border-bottom: 0.1px solid gray;
+    border-bottom: 0.1px solid rgb(193, 193, 193);
 }
-.top-header{
+.topheader{
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+.top-header{
     color: white;
     background-color: black;
-    padding: 10px;
-    text-align: center;
+    padding: 10px 0;
     font-family: 'Poppins';
-    font-size: 14px;
+    font-size: 13px;
+}
+.top-header p {
+    margin-left: 17.4%;
 }
 .top-header a{
     color: white;
-    margin: 10px;
-    font-size: 14px;
+    margin: 0 10px;
 }
 .lang {
     display: flex;
-    text-align: center;
+    align-items: center;
     font-size: 14px;
-    margin: 0 100px;
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    width: 90%;
+    padding: 20px 0px 5px 0px;
+    width: 80%;
     margin: auto;
 }
 .header h2{
-    display: flex;
-    flex-grow: 0.4;
+    flex-grow: 0.5;
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.03em;
 }
-
 .menu{
     display: flex;
     gap: 20px;
@@ -57,7 +59,7 @@ header{
 ul li a {
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 .search{
     display: flex;
@@ -76,19 +78,25 @@ ul li a {
     align-items: center;
     gap: 20px;
 }
-.landingpage {
-    width: 90%;
+.landingpage{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
     margin: auto;
+}
+.sidebar{
+    width: 200px;
+    border-right: 1px solid rgb(193, 193, 193);
     padding-top: 20px;
 }
 .sidebar ul {
     list-style: none;
-    font-size: 14px;
+    font-size: 15px;
 }
-.sidebar ul li {
+.sidebar ul li{
     display: flex;
     align-items: center;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 .womenfashion, .menfashion {
     display: none;
@@ -101,9 +109,63 @@ ul li a {
     text-decoration: none;
     padding: 4px;
 }
-.womendropdown:hover .womenfashion {
+.womendropdown li, .mendropdown li {
+    display: flex;
+    justify-content: space-between;
+}
+.womendropdown li img, .mendropdown li img {
+    padding-right: 7px;
+}
+.womendropdown:hover .womenfashion, .mendropdown:hover .menfashion {
     display: block;
 }
-.mendropdown:hover .menfashion {
-    display: block;
+.offers{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    height: 335px;
+    width: 75%;
+    margin-top: 35px;
+    color: #fff;
+    background-image: url('./img/14ProMax.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.AppleLogo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.AppleDescription h1{
+    width: 300px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    margin: 20px 0;
+}
+.AppleDescription a{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.AppleOffer{
+    padding-left: 50px;
+}
+.offers .scroll{
+    align-self: flex-end;
+    padding: 10px;
+}
+.offers .scroll button{
+    border: 2px solid #aeaeae;
+    padding: 6px;
+    background: #aeaeae;
+    border-radius: 50%;
+}
+.offers .scroll button:hover {
+    background: #DB4444;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
