@@ -17,9 +17,11 @@ body{
 :is(ul){
     list-style: none;
 }
+:is(a){
+    text-decoration: none;
+}
 :is(.white-list) a{
     color: #fff;
-    text-decoration: none;
     font-size: 16px;
 }
 .ShopNow {
@@ -192,6 +194,109 @@ header{
     border: 2px solid #fff;
 }
 
+    /* <=====   Style Today's Product   =====>*/
+
+.today-product{
+    padding-top: 140px;
+}
+.todays{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.todays p {
+    font-family: normal 20px 'Inter';
+    font-weight: 600;
+    color: #DB4444;
+}
+.Offer-timer{
+    width: 80%;
+    margin: auto;
+}
+.todays div{
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+}
+.Flash-sales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.Flash-sales h3{
+    font: normal 600 36px/48px 'Inter';
+    align-self: center;
+    padding-top: 10px;
+}
+.timer{
+    display: flex;
+    gap: 20px;
+    flex-grow: 0.7;
+}
+.day p:first-child, .hours p:first-child,
+ .minutes p:first-child,.seconds p:first-child {
+    font: normal 500 12px/18px 'Poppins';
+}
+.day p, .hours p, .minutes p,
+.seconds p:last-child {
+    font: normal 700 32px/32px 'Inter';
+}
+.Semiclone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.Semiclone div{
+    background-color: #DB4444;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+.scroll-products{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.scroll-products button{
+    padding: 12px;
+    border: none;
+    border-radius: 50%
+}
+.products{
+    margin-left: 10%;
+    width: 250px;
+}
+.price-off{
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #DB4444;
+}
+.product-image{
+    background-color: #F5F5F5;
+    padding: 30px;
+    border-radius: 4px;
+}
+.detail-wishlist{
+    display: flex;
+    flex-direction: column;
+}
+.price-off-detail-wishlist{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    width: 230px;
+}
+
+
+
+
     /* <=====   Style Footer   =====>*/
 
 footer{
@@ -244,6 +349,9 @@ footer{
 .social{
     margin-right: 20px;
 }
+
+    /* <=====   Style Copyright   =====>*/
+
 .copyright{
     display: flex;
     align-items: center;
