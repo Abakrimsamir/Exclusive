@@ -241,6 +241,9 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.social{
+    margin-right: 20px;
+}
 .copyright{
     display: flex;
     align-items: center;
