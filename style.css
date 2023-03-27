@@ -50,7 +50,7 @@ header{
     font-size: 13px;
 }   
 .top-header p {
-    margin-left: 160px;
+    margin-left: 20%;
     margin-right: 10px;
 }
 .lang {
@@ -178,6 +178,9 @@ header{
 
     /*-----   Style Scrolling Offer   -----*/
 
+.offers{
+    height: 330px;
+}
 .offers .scroll{
     align-self: flex-end;
     padding: 10px;
@@ -403,3 +406,4 @@ footer{
     gap: 12px;
     opacity: 0.6;
     padding: 20px;
+}
