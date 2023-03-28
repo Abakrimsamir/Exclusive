@@ -342,6 +342,91 @@ header{
 .allpictureproduct:hover .AddToCart{
     display: flex;
 }
+.ViewAllProduct{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.ViewAllProduct button{
+    color: #fff;
+    background: #DB4444;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 48px;
+    font: normal 500 16px/24px 'Poppins';
+}
+
+    /* <=====   LINE   =====>*/
+
+hr{
+    width: 80%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+    /* <=====   Style Cartegory Title   =====>*/
+
+.categories-section{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.categorys{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.categorys p {
+    font-family: normal 20px 'Inter';
+    font-weight: 600;
+    color: #DB4444;
+}
+.categorys div{
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+}
+.BrowseByCategory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.BrowseByCategory h3{
+    font: normal 600 36px/48px 'Inter';
+    align-self: center;
+    padding-top: 10px;
+}
+
+    /* <=====   Style All Cartegories   =====>*/
+
+.allcategories{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    overflow: hidden;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 24px 50px;
+    background: #fff;
+    font-size: 16px;
+}
+.category i{
+    font-size: 40px;
+}
+.category:hover{
+    background-color: #DB4444;
+    color: white;
+    stroke: white;
+}
 
     /* <=====   Style Footer   =====>*/
 
