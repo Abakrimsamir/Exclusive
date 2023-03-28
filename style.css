@@ -407,6 +407,7 @@ hr{
     margin: auto;
     gap: 30px;
     overflow: hidden;
+    padding-top: 40px;
 }
 .category{
     display: flex;
