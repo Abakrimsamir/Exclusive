@@ -608,8 +608,11 @@ hr{
     margin: auto;
     gap: 30px;
     margin-top: 50px;
+    color: #FAFAFA;
 }
 .playStation5{
+    display: flex;
+    align-items: end;
     background: #000 url('./img/collections/ps5.png')no-repeat bottom;
     width: 50%;
 }
@@ -620,6 +623,8 @@ hr{
     gap: 32px;
 }
 .womenscollections{
+    display: flex;
+    align-items: end;
     background: #0D0D0D url('./img/collections/woman-wearing.png') no-repeat right;
     height: 284px;
 }
@@ -628,13 +633,29 @@ hr{
     gap: 30px;
 }
 .speakers{
+    display: flex;
+    align-items: end;
     background: #0D0D0D url('./img/collections/speakers.png') no-repeat center;
     width: 50%;
 }
 .perfume{
+    display: flex;
+    align-items: end;
     background: #0D0D0D url('./img/collections/perfume.png') no-repeat center;
     width: 50%;
     height: 284px;
+}
+.new-arrival-detail{
+    width: 225px;
+    margin: 30px;
+}
+.new-arrival-detail h4{
+    font: normal 600 20px/24px 'Inter';
+    letter-spacing: 0.03em;
+}
+.new-arrival-detail p{
+    font: normal 400 14px/21px 'Poppins';
+    margin: 10px 0;
 }
 
     /* <=====   Style Footer   =====>*/
