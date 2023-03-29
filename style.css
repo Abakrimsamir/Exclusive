@@ -9,6 +9,9 @@
 body{
     font-family: 'Inter';
 }
+button,a{
+    cursor: pointer;
+}
 :is(.balck-list) a{
     color: #000;
     text-decoration: none;
@@ -84,6 +87,10 @@ header{
     list-style: none;
     margin-right: 30px;
 }
+.menu a:hover{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #DB4444;
+}
 .search{
     display: flex;
     background-color: #F5F5F5;
@@ -104,11 +111,12 @@ header{
 
     /* <=====   Style Main Page   =====>*/
     
-.landingpage{
+.section1{
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: auto;
+    margin-bottom: 120px;
 }
 
     /*<=====   Style Side Menu   =====>*/
@@ -197,17 +205,18 @@ header{
     border: 2px solid #fff;
 }
 
-    /* <=====   Style Today's Product   =====>*/
+    /* <=====   Style Today's & This Month Product & Our Prouducts  =====>*/
 
-.today-product{
-    padding-top: 140px;
+.section6{
+    margin-top: 90px;
 }
-.todays{
+.todays, .this-month, .OurProduct{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.todays p {
+.todays p, .this-month p,
+ .OurProduct p {
     font-family: normal 20px 'Inter';
     font-weight: 600;
     color: #DB4444;
@@ -216,19 +225,22 @@ header{
     width: 80%;
     margin: auto;
 }
-.todays div{
+.todays div,.this-month div,
+ .OurProduct div{
     width: 20px;
     height: 40px;
     background: #DB4444;
     border-radius: 4px;
 }
-.Flash-sales{
+.Flash-sales, .Best-Selling,
+.Explore-Our-Products{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 }
-.Flash-sales h3{
+.Flash-sales h3, .Best-Selling h3,
+.Explore-Our-Products h3{
     font: normal 600 36px/48px 'Inter';
     align-self: center;
     padding-top: 10px;
@@ -259,7 +271,7 @@ header{
     width: 5px;
     height: 5px;
 }
-.scroll-products{
+.scroll-products,.ViewAll{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -269,20 +281,60 @@ header{
     border: none;
     border-radius: 50%
 }
+.ViewAll button{
+    padding: 15px 40px;
+    background: #DB4444;
+    border: 1px solid #DB4444;
+    border-radius: 4px;
+    padding: 16px 48px;
+    color: #fff;
+}
+.ViewAll button:hover{
+    background: #fff;
+    color: #DB4444;
+}
 
-/* <=====   Style Products   =====>*/
+/* <-------   Style Products  -------->*/
 
+.products-s1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 45px;
+    overflow: hidden;
+}
 .products{
     display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 90%;
+    gap: 45px;
+    overflow: hidden;
+}
+.all-our-products{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 45px;
+    width: 90%;
     overflow: hidden;
 }
 .all-products{
     display: flex;
     gap: 30px;
     margin-top: 30px;
+    width: 200px;
     margin-left: 10%;
 }
-.product1{
+.our-products-first-line,
+.our-products-secound-line{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+.product1,.product2,.product3{
     width: 290px;
 }
 .images-product{
@@ -293,15 +345,21 @@ header{
     border-radius: 5px;
     padding: 10px;
     height: 220px;
+    width: 265px;
 }
 .price-off{
     align-self: flex-start;
+}
+.price-off p{
     color: #fff;
     font: normal 400 18px 'Inter';
     padding: 5px;
     border-radius: 5px;
     font-size: 14px;
     background-color: #DB4444;
+}
+.new p{
+    background-color: #00FF66;
 }
 .detail-wishlist{
     display: flex;
@@ -329,13 +387,14 @@ header{
 }
 .AddToCart{
     display: none;
-    width: 290px;
+}
+.AddToCart button{
+    width: 285px;
     background-color: #000;
     justify-content: center;
+    border: none;
     padding: 10px 0;
-    margin-top: -40px;
-}
-.AddToCart a{
+    margin-top: -42px;
     color: #fff;
     font: normal 500 18px 'Inter';
 }
@@ -345,15 +404,62 @@ header{
 .ViewAllProduct{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    margin-top: 50px;
 }
 .ViewAllProduct button{
     color: #fff;
     background: #DB4444;
+    border: 1px solid #DB4444;
     border-radius: 4px;
-    border: none;
     padding: 16px 48px;
     font: normal 500 16px/24px 'Poppins';
+}
+.ViewAllProduct button:hover{
+    background: #fff;
+    color: #DB4444;
+}
+.product-details .price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.our-product-pricing {
+    color: #DB4444;
+    font: normal 500 16px 'Inter';
+    margin-right: 10px;
+}
+
+    /*-----   Style Product Choose Color   -----*/
+
+.choose-color-first{
+    background-color: #ff0000;
+    border: 5px double #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.choose-color-third{
+    background-color: #EEFF61;
+    border: 3px solid #000;
+    padding: 10px;
+    border-radius: 50%;
+}
+.choose-color-fourth{
+    background-color: #000;
+    border: 5px double #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.choose-color-fifth{
+    background-color: #184A48;
+    border: 5px double #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.choose-color-second{
+    background-color: #DB4444;
+    border: 3px solid #DB4444;
+    padding: 10px;
+    border-radius: 50%;
 }
 
     /* <=====   LINE   =====>*/
@@ -362,6 +468,8 @@ hr{
     width: 80%;
     margin: auto;
     opacity: 0.5;
+    margin-top: 50px;
+    margin-bottom: 90px;
 }
 
     /* <=====   Style Cartegory Title   =====>*/
@@ -369,7 +477,6 @@ hr{
 .categories-section{
     width: 80%;
     margin: auto;
-    margin-top: 50px;
 }
 .categorys{
     display: flex;
@@ -407,7 +514,6 @@ hr{
     margin: auto;
     gap: 30px;
     overflow: hidden;
-    padding-top: 40px;
 }
 .category{
     display: flex;
@@ -427,6 +533,74 @@ hr{
     background-color: #DB4444;
     color: white;
     stroke: white;
+}
+
+/* <=====   Section5: Offer Number 2 =====>*/
+
+.section5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    color: #fff;
+    margin-top: 90px;
+    background: #000 url('./img/blur.png') no-repeat right;
+}
+.offerdetail{
+    padding: 50px;
+}
+.offerdetail .offer-categories{
+    color: #00FF66;
+    padding-bottom: 15px;
+    font: normal 500 16px 'Inter';
+}
+.offerdetail h2{
+    color: #FAFAFA;
+    letter-spacing: 0.04em;
+    font:normal 600 48px/60px 'Inter';
+}
+.product-photo{
+    padding: 50px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.time div{
+    padding: 8px;
+    margin: 40px 0;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+    font: normal 400 11px 'Poppins';
+}
+.time div p:first-child{
+    font-weight: 600;
+    font-size: 16px;
+}
+.offerdetail button{
+    color: #fff;
+    border: none;
+    padding: 16px 48px;
+    background: #00FF66;
+    border-radius: 4px;
+}
+.offerdetail button:hover{
+    color: #00FF66;
+    background: #fff;
+}
+
+    /* <=====   Style Section Number 7 Featured  =====>*/
+
+.section7{
+    padding-top: 140px;
 }
 
     /* <=====   Style Footer   =====>*/
