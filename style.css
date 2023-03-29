@@ -602,6 +602,40 @@ hr{
 .section7{
     padding-top: 140px;
 }
+.collections{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+.playStation5{
+    background: #000 url('./img/collections/ps5.png')no-repeat bottom;
+    width: 50%;
+}
+.womens{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 32px;
+}
+.womenscollections{
+    background: #0D0D0D url('./img/collections/woman-wearing.png') no-repeat right;
+    height: 284px;
+}
+.speakers-perfume{
+    display: flex;
+    gap: 30px;
+}
+.speakers{
+    background: #0D0D0D url('./img/collections/speakers.png') no-repeat center;
+    width: 50%;
+}
+.perfume{
+    background: #0D0D0D url('./img/collections/perfume.png') no-repeat center;
+    width: 50%;
+    height: 284px;
+}
 
     /* <=====   Style Footer   =====>*/
 
