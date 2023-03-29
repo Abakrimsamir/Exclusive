@@ -658,6 +658,27 @@ hr{
     margin: 10px 0;
 }
 
+    /* <=====   Style Section Number 8 Customer Service  =====>*/
+
+.section8{
+    margin-top: 140px;
+}
+.customer-service{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+.free-delivery, .customer-support,
+.return-money{
+    width: 33.33%;
+    text-align: center;
+}
+.free-delivery h3, .customer-support h3,
+.return-money h3{
+    margin: 15px;
+}
+
     /* <=====   Style Footer   =====>*/
 
 footer{
