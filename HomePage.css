@@ -152,6 +152,10 @@ header{
 .mendropdown:hover .menfashion {
     display: block;
 }
+.womendropdown:hover img,
+.mendropdown:hover img{
+    transform: rotate(90deg);
+}
 
     /* <=====   Style Home Product Offers   =====>*/
 
