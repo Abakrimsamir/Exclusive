@@ -112,6 +112,9 @@ header{
     align-items: center;
     gap: 20px;
 }
+
+    /*-----   Style Sign Up   -----*/
+
 h1{
     font: normal 500 36px/30px 'Inter';
     padding-bottom: 10px;
@@ -169,7 +172,10 @@ h1{
     font: normal 400 16px/24px 'Poppins';
     opacity: 0.8;
 }
-
+.already-have-account a{
+    color: #000;
+    text-decoration: underline;
+}
 
     /* <=====   Style Footer   =====>*/
 

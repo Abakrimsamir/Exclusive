@@ -91,6 +91,10 @@ header{
 
     /*-----   Style Header Menu   -----*/
 
+.home{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #DB4444;
+}
 .menu{
     display: flex;
     gap: 20px;
