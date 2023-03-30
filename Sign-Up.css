@@ -87,9 +87,13 @@ header{
     list-style: none;
     margin-right: 30px;
 }
+.signup{
+    padding-bottom: 5px;
+    border-bottom:  5px solid #DB4444;
+}
 .menu a:hover{
-    padding-bottom: 10px;
-    border-bottom: 4px solid #DB4444;
+    padding-bottom: 5px;
+    border-bottom:  5px solid #DB4444;
 }
 .search{
     display: flex;
@@ -108,3 +112,135 @@ header{
     align-items: center;
     gap: 20px;
 }
+h1{
+    font: normal 500 36px/30px 'Inter';
+    padding-bottom: 10px;
+}
+.create-an-account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.create-an-account p{
+    padding: 15px 0;
+    font: normal 400 16px/24px 'Poppins';
+}
+.create-an-account input{
+    margin: 15px 0;
+    padding: 5px 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+} 
+.create-an-account button{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.create-an-account .create{
+    background-color: #DB4444;
+    color: #fff;
+    border: none;
+    padding: 15px;
+}
+.create:hover{
+    transform: scale(1.1);
+    letter-spacing: 0.1rem;
+    
+}
+.sign-with-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.sign-with-google:hover{
+    transform: scale(1.1);
+    letter-spacing: 0.1rem;
+}
+.already-have-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font: normal 400 16px/24px 'Poppins';
+    opacity: 0.8;
+}
+
+
+    /* <=====   Style Footer   =====>*/
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+    /* <=====   Style Footer   =====>*/
+
+    footer{
+        margin-top: 100px;
+        background-color: black;
+        color: white;
+    }
+    .footer-information {
+        display: flex; 
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .footer-information li{
+        padding-bottom: 20px;
+    }
+    .footeremail{
+        display: flex;
+        align-items: center;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    .footeremail input {
+        background: none;
+        color: #fff;
+        border: none;
+        outline: none;
+    }
+    .support {
+        width: 200px;
+        line-height: 23px;
+    }
+    .download-app p{
+        font-size: 12px;
+        opacity: 0.7;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .download{
+        display: flex;
+        gap: 5px;
+    }
+    .App-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        margin-right: 20px;
+    }
+    
+        /* <=====   Style Copyright   =====>*/
+    
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        gap: 12px;
+        opacity: 0.6;
+        padding: 20px;
+    }

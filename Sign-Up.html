@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="Sign-Up.css">
     <title>Sign Up</title>
 </head>
 <body>
 
-    <!--=====  Header   =====-->
+<!--=====  Header   =====-->
 
     <header>
             
@@ -32,18 +32,35 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Sign Up</a></li>
+                <li><a class="signup" href="#">Sign Up</a></li>
             </ul>
             <div class="search">
                 <input type="search" placeholder="What are you looking for?">
                 <img src="./img/searchIcon.svg">
             </div>
-            <div class="wish-card">
-                <a href="#"><img src="./img/wishlist.svg"></a>
-                <a href="#"><img src="./img/cart.svg"></a>
-            </div>
         </div>
     </header>
+
+<!--=====  Sign Up   =====-->
+
+    <div class="container">
+        <div class="side-image">
+            <img src="./img/sideimage-signup.png">
+        </div>
+        <div class="create-an-account">
+            <h1>Create An Account</h1>
+            <p>Enter Your Details</p>
+            <input type="text" placeholder="Name">
+            <input type="email tel" placeholder="Email or Phone Number">
+            <input type="password" placeholder="Password">
+            <button  class="create">Create Account</button>
+            <button class="sign-with-google"><img src="./img/Icon-Google.png"> Sign up with Google</button>
+            <p class="already-have-account">Already have account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+
+<!--=====  Footer   =====-->
+
     <footer>
         <div class="footer-information">
 
