@@ -32,6 +32,17 @@ button,a{
     text-decoration: underline;
     font-size: 14px;
 }
+
+    /* <=====   Button Back Home  =====>*/
+
+.back-home{
+    position: fixed;
+    text-align: cente;
+    margin: 30px;
+    z-index: 1;
+    top: 620px;
+    right: 0;
+}
  
     /* <=====   Style Top Header   =====>*/
 
