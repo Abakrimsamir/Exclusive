@@ -72,7 +72,8 @@ header{
     width: 80%;
     margin: auto;
 }
-.header h2{
+.header h2 a{
+    color: #000;
     flex-grow: 0.5;
     font: normal 700 24px;
     letter-spacing: 0.03em;
@@ -92,7 +93,7 @@ header{
     border-bottom:  5px solid #DB4444;
 }
 .menu a:hover{
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     border-bottom:  5px solid #DB4444;
 }
 .search{
@@ -112,23 +113,44 @@ header{
     align-items: center;
     gap: 20px;
 }
+.wish-card p{
+    margin-top: -20px;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 9px;
+    padding: 4px 6px;
+    background: #DB4444;
+    color: #fff;
+    border-radius: 50px;
+}
 
 /* <-------   Style Products  -------->*/
 
-.Wishlist{
+.Wishlist, .JustForYou{
     width: 80%;
     margin: auto;
 }
-.My-wishlist-product{
+.My-wishlist-product, .JustForYou-product{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
-wishlist-title p{
+wishlist-title p, .JustForYou-title p{
     font: normal 400 20px/26px 'Poppins';
 }
-.move-all-to-bag button{
+.JustForYou-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.JustForYou-title div {
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+}
+.move-all-to-bag button, .See-All button{
     box-sizing: border-box;
     padding: 16px 48px;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -152,7 +174,7 @@ wishlist-title p{
     margin-top: 30px;
     width: 150px;
 }
-.product2{
+.product{
     width: 280px;
 }
 .images-product{
@@ -175,6 +197,9 @@ wishlist-title p{
     border-radius: 5px;
     font-size: 14px;
     background-color: #DB4444;
+}
+.new p{
+    background-color: #00FF66;
 }
 .detail-wishlist{
     display: flex;
@@ -204,6 +229,12 @@ wishlist-title p{
     padding: 10px 0;
     color: #fff;
     font: normal 500 18px 'Inter';
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #656565;
 }
 
     /* <=====   Style Footer   =====>*/

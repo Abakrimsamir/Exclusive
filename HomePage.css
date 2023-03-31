@@ -123,6 +123,16 @@ header{
     align-items: center;
     gap: 20px;
 }
+.wish-card p{
+    margin-top: -20px;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 9px;
+    padding: 4px 6px;
+    background: #DB4444;
+    color: #fff;
+    border-radius: 50px;
+}
 
     /* <=====   Style Main Page   =====>*/
     
