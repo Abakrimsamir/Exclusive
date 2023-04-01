@@ -83,7 +83,8 @@ header{
     width: 80%;
     margin: auto;
 }
-.header h2{
+.header h2 a{
+    color: #000;
     flex-grow: 0.5;
     font: normal 700 24px;
     letter-spacing: 0.03em;
