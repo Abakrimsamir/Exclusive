@@ -157,7 +157,8 @@ wishlist-title p, .JustForYou-title p{
     background-color: #fff;
     border-radius: 4px;
 }
-.move-all-to-bag button:hover{
+.move-all-to-bag button:hover,
+.See-All button:hover{
     background-color: #000000;
     color: white;
 }
