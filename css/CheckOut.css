@@ -133,11 +133,11 @@ header{
     margin: auto;
     margin-top: 50px;
 }
-.container > p{
+.container > span{
     font: normal 400 14px/21px 'Poppins';
     color: #949494;
 }
-.container > p > b{
+.container > span > b{
     color: #000;
 }
 

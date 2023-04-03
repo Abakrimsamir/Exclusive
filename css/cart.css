@@ -113,7 +113,7 @@ header{
     align-items: center;
     gap: 20px;
 }
-span{
+.wish-card > .span1, .span2{
     margin-top: -20px;
     margin-left: 15px;
     position: absolute;
@@ -123,7 +123,7 @@ span{
     color: #fff;
     border-radius: 50px;
 }
-.span2{
+.wish-card > .span2{
     margin-left: 64px;
 }
 
@@ -136,11 +136,11 @@ span{
     margin: auto;
     margin-top: 90px;
 }
-.container > p{
+.container > span{
     font: normal 400 14px/21px 'Poppins';
     color: #949494;
 }
-.container > p > b{
+.container > span > b{
     color: #000;
 }
 .my-product{
