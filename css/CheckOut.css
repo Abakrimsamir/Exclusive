@@ -113,7 +113,7 @@ header{
     align-items: center;
     gap: 20px;
 }
-span{
+.wish-card p{
     margin-top: -20px;
     margin-left: 15px;
     position: absolute;
@@ -123,9 +123,6 @@ span{
     color: #fff;
     border-radius: 50px;
 }
-.span2{
-    margin-left: 64px;
-}
 
      /*<!--=====  Container  =====-->*/
 
@@ -134,7 +131,7 @@ span{
     flex-direction: column;
     width: 80%;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 .container > p{
     font: normal 400 14px/21px 'Poppins';
@@ -143,101 +140,8 @@ span{
 .container > p > b{
     color: #000;
 }
-.my-product{
-    margin-top: 60px;
-}
-.thead, .tbody1, .tbody2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    box-shadow: 4px 4px 4px 4px rgba(0 , 0 , 0 , 0.05);
-    margin: 20px 0;
-}
-.product-in-cart1, .product-in-cart2{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.thead p:first-child{
-    display: flex;
-    flex-grow: 0.14;
-}
-.tbody1 input, .tbody2 input{
-    width: 40px;
-    padding: 10px;
-    border-radius: 5px;
-}
-.return-update{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-.return-update button{
-    padding: 16px 48px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-.return-update button:hover{
-    color: #fff;
-    background-color: #000;
-}
-.checkout{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-.coupon-code{
-    display: flex;
-    gap: 20px;
-    height: 50px;
-}
-.coupon-code input{
-    padding: 10px;
-    width: 250px;
-    border-radius: 5px;
-}
-.coupon-code button{
-    padding: 16px 48px;
-    background-color: #DB4444;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-}
-.cart-total{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #000;
-    border-radius: 5px;
-    width: 450px;
-    padding: 25px;
-}
-.cart-total > div {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding: 10px 0;
-}
-.subtotal, .shipping {
-    border-bottom: 1px solid #000;
-}
-.cart-total button{
-    padding: 16px 48px;
-    width: 260px;
-    align-self: center;
-    border-radius: 5px;
-    border: 1px solid #DB4444;
-    color: #fff;
-    background-color: #DB4444;
-}
-.cart-total button:hover,
-.coupon-code button:hover{
-    color: #DB4444;
-    background-color: #fff;
-    border: 1px solid #DB4444;
-}
 
-    /* <=====   Style Footer   =====>*/
+   /* <=====   Style Footer   =====>*/
 
 footer{
     margin-top: 100px;
