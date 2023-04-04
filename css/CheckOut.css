@@ -136,9 +136,41 @@ header{
 .container > span{
     font: normal 400 14px/21px 'Poppins';
     color: #949494;
+    margin: 30px 0;
 }
 .container > span > b{
     color: #000;
+}
+.container h1 {
+    font: normal 500 36px/30px 'Inter';
+    letter-spacing: 0.04em;
+    margin: 50px 0;
+}
+.customer-info{
+    display: flex;
+    flex-direction: column;
+}
+.customer-info > input{
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+.customer-info > label{
+    font: normal 400 16px/24px 'Poppins';
+    opacity: 0.4;
+    margin: 5px 0;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+}
+#checkbox{
+    accent-color: #DB4444;
+    width: 20px;
 }
 
    /* <=====   Style Footer   =====>*/
