@@ -126,19 +126,27 @@ header{
 
      /*<!--=====  Container  =====-->*/
 
+.checkout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .container{
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: auto;
     margin-top: 50px;
-}
-.container > span{
+} 
+
+     /*<!--=====  Customer Information  =====-->*/
+
+.container > span a{
     font: normal 400 14px/21px 'Poppins';
     color: #949494;
     margin: 30px 0;
 }
-.container > span > b{
+.container > span > a > b{
     color: #000;
 }
 .container h1 {
@@ -171,6 +179,89 @@ header{
 #checkbox{
     accent-color: #DB4444;
     width: 20px;
+}
+
+     /*<!--=====  Checkout Information  =====-->*/
+
+.checkout-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 445px;
+    margin-top: 35px;
+}
+.product1-detail, .product2-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product1, .product2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart-total{
+    display: flex;
+    flex-direction: column;
+}
+.cart-total > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.subtotal, .shipping {
+    border-bottom: 1px solid #000;
+}
+.pay-method{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bank-type{
+    display: flex;
+    justify-content: space-between;
+}
+.pay-by-bank, .cash-on-delivery{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#bank, #CashOnDelivery{
+    accent-color: #DB4444;
+    height: 20px;
+    width: 20px;
+}
+.coupon-code{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+}
+.coupon-code input{
+    padding: 10px;
+    outline: none;
+    width: 220px;
+    border-radius: 5px;
+}
+.coupon-code button{
+    padding: 16px 48px;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+#place-order{
+    padding: 16px 48px;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 200px;
+}
+#place-order:hover,
+.coupon-code button:hover{
+    color: #DB4444;
+    background-color: #fff;
+    border: 1px solid #DB4444;
 }
 
    /* <=====   Style Footer   =====>*/

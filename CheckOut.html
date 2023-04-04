@@ -51,9 +51,9 @@
 <!--=====  Container  =====-->
 
     <div class="container">
-        <span>Home / My Account / Product / View Cart / <b>CheckOut</b></span>
+        <span><a href="./HomePage.html">Home / </a><a href="#">My Account / </a><a href="#">Product / </a> <a href="./cart.html">View Cart / </a><a href="#"><b>CheckOut</b></a></span>
         <h1>Billing Details</h1>
-        <div>
+        <div class="checkout">
             <div class="customer-info">
                 <label for="firstname">First Name</label>
                 <input type="text" id="firstname">
@@ -74,13 +74,53 @@
                     <label for="checkbox">Save this information for faster check-out next time</label>
                 </div>
             </div>
-            <div>
-                <div>
-                    
+            <div class="checkout-info">
+                <div class="product1-detail">
+                    <div class="product1">
+                        <img width="50px" src="./img/playercontrol.png">
+                        <p>LCD Monitor</p>
+                    </div>
+                    <p>$650</p>
                 </div>
-                <div>
-                    
+                <div class="product2-detail">
+                    <div class="product2">
+                        <img width="50px" src="./img/ecron.png">
+                        <p>LCD Monitor</p>
+                    </div>
+                    <p>$1100</p>
                 </div>
+                <div class="cart-total">
+                    <div class="subtotal">
+                        <p>Subtotal:</p>
+                        <p>$1750</p>
+                    </div>
+                    <div class="shipping">
+                        <p>Shipping:</p>
+                        <p>Free</p>
+                    </div>
+                    <div>
+                        <p>Total</p>
+                        <p>$1750</p>
+                    </div>
+                </div>
+                <div class="pay-method">
+                    <div class="bank-type">
+                        <div class="pay-by-bank">
+                            <input type="radio" id="bank" name="pay" value="bank">
+                            <label for="bank">Bank</label>
+                        </div>
+                        <label for="bank"><img src="./img/bank-type.png"></label>
+                    </div>
+                    <div class="cash-on-delivery">
+                        <input type="radio" id="CashOnDelivery" name="pay" value="CashOnDelivery" checked>
+                        <label for="CashOnDelivery">Cash On Delivery</label>
+                    </div>
+                </div>
+                <div class="coupon-code">
+                    <input type="text" placeholder="Coupon Code">
+                    <button>Apply Coupon</button>
+                </div>
+                <button id="place-order">Place Order</button>
             </div>
         </div>
     </div>
