@@ -136,11 +136,11 @@ header{
     margin: auto;
     margin-top: 90px;
 }
-.container > span{
+.container > span > a{
     font: normal 400 14px/21px 'Poppins';
     color: #949494;
 }
-.container > span > b{
+.container > span > a > b{
     color: #000;
 }
 .my-product{
@@ -221,16 +221,17 @@ header{
 .subtotal, .shipping {
     border-bottom: 1px solid #000;
 }
-.cart-total button{
+.cart-total a{
     padding: 16px 48px;
     width: 260px;
+    text-align: center;
     align-self: center;
     border-radius: 5px;
     border: 1px solid #DB4444;
     color: #fff;
     background-color: #DB4444;
 }
-.cart-total button:hover,
+.cart-total a:hover,
 .coupon-code button:hover{
     color: #DB4444;
     background-color: #fff;

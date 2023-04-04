@@ -113,7 +113,7 @@ header{
     align-items: center;
     gap: 20px;
 }
-.wish-card p{
+.wish-card > .span1, .span2{
     margin-top: -20px;
     margin-left: 15px;
     position: absolute;
@@ -122,6 +122,9 @@ header{
     background: #DB4444;
     color: #fff;
     border-radius: 50px;
+}
+.wish-card > .span2{
+    margin-left: 64px;
 }
 
      /*<!--=====  Container  =====-->*/
