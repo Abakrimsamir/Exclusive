@@ -127,16 +127,6 @@ header{
     align-items: center;
     gap: 20px;
 }
-.wish-card p{
-    margin-top: -20px;
-    margin-left: 15px;
-    position: absolute;
-    font-size: 9px;
-    padding: 4px 6px;
-    background: #DB4444;
-    color: #fff;
-    border-radius: 50px;
-}
 
     /* <=====   Style Main Page   =====>*/
     
@@ -147,13 +137,12 @@ header{
     margin: auto;
     margin-bottom: 120px;
 }
-
     /*<=====   Style Side Menu   =====>*/
 
 .sidebar{
     width: 200px;
     border-right: 1px solid rgb(193, 193, 193);
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .sidebar ul li{
     display: flex;
@@ -172,6 +161,10 @@ header{
     display: block;
     color: #000;
     padding: 4px;
+}
+.womenfashion a:hover,
+.menfashion a:hover{
+    color: #DB4444;
 }
 .womendropdown li, .mendropdown li {
     display: flex;
@@ -593,7 +586,7 @@ hr{
     height: 500px;
     color: #fff;
     margin-top: 90px;
-    background: #000 url('./img/blur.png') no-repeat right;
+    background: #000 url('../img/blur.png') no-repeat right;
 }
 .offerdetail{
     padding: 50px;
@@ -660,7 +653,7 @@ hr{
 .playStation5{
     display: flex;
     align-items: end;
-    background: #000 url('./img/collections/ps5.png')no-repeat bottom;
+    background: #000 url('../img/collections/ps5.png') no-repeat bottom;
     width: 50%;
 }
 .womens{
@@ -672,7 +665,7 @@ hr{
 .womenscollections{
     display: flex;
     align-items: end;
-    background: #0D0D0D url('./img/collections/woman-wearing.png') no-repeat right;
+    background: #0D0D0D url('../img/collections/woman-wearing.png') no-repeat right;
     height: 284px;
 }
 .speakers-perfume{
@@ -682,13 +675,13 @@ hr{
 .speakers{
     display: flex;
     align-items: end;
-    background: #0D0D0D url('./img/collections/speakers.png') no-repeat center;
+    background: #0D0D0D url('../img/collections/speakers.png') no-repeat center;
     width: 50%;
 }
 .perfume{
     display: flex;
     align-items: end;
-    background: #0D0D0D url('./img/collections/perfume.png') no-repeat center;
+    background: #0D0D0D url('../img/collections/perfume.png') no-repeat center;
     width: 50%;
     height: 284px;
 }

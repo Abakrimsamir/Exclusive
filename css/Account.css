@@ -241,6 +241,10 @@ header{
     font: normal 500 16px/24px 'Poppins';
     color: #FAFAFA;
 }
+.save-change button:hover{
+    color: #DB4444;
+    background: #fff;
+}
 
    /* <=====   Style Footer   =====>*/
 
