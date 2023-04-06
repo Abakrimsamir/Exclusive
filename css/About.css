@@ -201,6 +201,11 @@ header{
     gap: 52px;
     margin-top: 140px;
     overflow: hidden;
+    scroll-behavior: smooth;
+    position: relative;
+}
+.member{
+    position: relative;
 }
 .member h1{
     font: normal 500 32px/30px 'Inter';
@@ -218,8 +223,6 @@ header{
     display: flex;
     gap: 10px;
     justify-content: center;
-    width: 80%;
-    margin: auto;
     margin-top: 30px;
 }
 .slider-nav a{
