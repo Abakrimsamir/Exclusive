@@ -198,7 +198,39 @@ header{
     width: 80%;
     margin: auto;
     justify-content: space-between;
+    gap: 52px;
     margin-top: 140px;
+    overflow: hidden;
+}
+.member h1{
+    font: normal 500 32px/30px 'Inter';
+    letter-spacing: 0.04em;
+    padding-top: 15px;
+}
+.member p{
+    font: normal 400 16px/24px 'Poppins';
+    padding: 10px 0;
+}
+.socialmedia img{
+    margin-right: 10px;
+}
+.slider-nav{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.slider-nav a{
+    background: #949494;
+    border: 2px solid #949494;
+    padding: 6px;
+    border-radius: 50%;
+}
+.slider-nav a:focus{
+    background-color: #DB4444;
+    border: 2px solid #949494;
 }
 
     /* <=====  Customer Service  =====>*/
