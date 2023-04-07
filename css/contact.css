@@ -186,14 +186,25 @@ hr{
     outline: none;
     border-radius: 4px;
 }
-.write-message input{
-    width: 737px;
-    height: 207px;
+.write-message textarea{
     background-color: #F5F5F5;
-    padding: 0 5px;
+    padding: 10px;
     border: none;
     outline: none;
+    resize: vertical;
     border-radius: 4px;
+}
+.send-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.send-button button{
+    margin-top: 35px;
+    padding: 16px 48px;
+    background: #DB4444;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
 }
 
     /* <=====   Style Footer   =====>*/
