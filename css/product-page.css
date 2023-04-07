@@ -234,6 +234,63 @@ hr{
     font: normal 400 20px/20px 'Inter';
     letter-spacing: 0.03em;
 }
+.action-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: space-between;
+    width: 159px;
+    height: 44px;
+}
+.number{
+    font-size: 25px;
+}
+.moin{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+    border-radius: 4px 0px 0px 4px;
+    padding: 0 12px;
+    height: 100%;
+}
+.moin a, .plus a{
+    font-size: 35px;
+    color: #000;
+}
+.plus{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    border-radius: 0px 4px 4px 0px;
+    height: 100%;
+    padding: 0 12px;
+    background-color: #DB4444;
+}
+.plus a{
+    color: #fff;
+}
+.buy-now button{
+    background: #DB4444;
+    border-radius: 4px;
+    width: 165px;
+    height: 44px;
+    color: #fff;
+    border: 2px solid #DB4444;
+    border-radius: 4px;
+}
+.add-wishlist{
+    height: 40px;
+}
+.delivery{
+    border: 2px solid #000;
+    
+}
 
     /* <=====   Style Footer   =====>*/
 
