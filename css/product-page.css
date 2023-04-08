@@ -289,7 +289,126 @@ hr{
 }
 .delivery{
     border: 2px solid #000;
-    
+    margin-top: 35px;
+}
+.free-delivery, .return-delivery{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+}
+.return-delivery{
+    border-top: 2px solid #000;
+}
+.free-delivery > div > h1,
+.return-delivery > div > h1{
+    font: normal 500 16px/24px 'Poppins';
+}
+.free-delivery > div > a,
+.return-delivery > div > p > a {
+    font: normal 500 12px/18px 'Poppins';
+    color: #000;
+    text-decoration: underline;
+}
+.return-delivery > div > p{
+    font: normal 500 12px/18px 'Poppins';
+}
+
+/* <-------   Related Item -------->*/
+
+.related-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+}
+.related-item div{
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+}
+.related-item p{
+    font: normal 600 16px/20px 'Poppins';
+    color: #DB4444;
+}
+.products-s1{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+.all-products{
+    display: flex;
+    gap: 25px;
+}
+.product1{
+    width: 280px;
+}
+.images-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+    border-radius: 5px;
+    padding: 10px;
+    height: 220px;
+    width: 260px;
+}
+.price-off{
+    align-self: flex-start;
+}
+.price-off p{
+    color: #fff;
+    font: normal 400 18px 'Inter';
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #DB4444;
+}
+.detail-wishlist{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.product-details h3{
+    font: normal 500 18px/24px 'Inter';
+    margin: 10px 0;
+}
+.pricing {
+    color: #DB4444;
+    font: normal 500 16px/24px 'Inter';
+    padding-bottom: 10px;
+}
+.pricing del {
+    color: #000000;
+    opacity: 0.5;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #656565;
+}
+.AddToCart{
+    display: none;
+}
+.AddToCart button{
+    width: 285px;
+    background-color: #000;
+    justify-content: center;
+    border: none;
+    padding: 10px 0;
+    margin-top: -42px;
+    color: #fff;
+    font: normal 500 18px 'Inter';
+}
+.allpictureproduct:hover .AddToCart{
+    display: flex;
+}
+.product-detail h3{
+    padding: 10px 0;
 }
 
     /* <=====   Style Footer   =====>*/
