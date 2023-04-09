@@ -144,6 +144,7 @@ header{
 .product-details{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .other-pictures{
@@ -284,6 +285,10 @@ hr{
     border: 2px solid #DB4444;
     border-radius: 4px;
 }
+.buy-now button:hover{
+    background-color: #fff;
+    color: #DB4444;
+}
 .add-wishlist{
     height: 40px;
 }
@@ -295,14 +300,14 @@ hr{
     display: flex;
     gap: 15px;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
 }
 .return-delivery{
     border-top: 2px solid #000;
 }
 .free-delivery > div > h1,
 .return-delivery > div > h1{
-    font: normal 500 16px/24px 'Poppins';
+    font: normal 500 16px/0 'Poppins';
 }
 .free-delivery > div > a,
 .return-delivery > div > p > a {
