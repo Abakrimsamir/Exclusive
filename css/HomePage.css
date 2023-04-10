@@ -149,6 +149,10 @@ header{
     align-items: center;
     margin: 15px 0;
 }
+.sidebar ul li a:hover{
+    color: #DB4444;
+    
+}
 
     /*-----   Style Women & Men Fashion SubMenu   -----*/
 
@@ -428,10 +432,10 @@ header{
 .AddToCart{
     display: none;
 }
-.AddToCart button{
+.AddToCart a{
     width: 285px;
     background-color: #000;
-    justify-content: center;
+    text-align: center;
     border: none;
     padding: 10px 0;
     margin-top: -42px;
