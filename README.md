@@ -1,2 +1,2 @@
 # Exclusive
-E-commerce website using html css js
+Full E-commerce website using html css
